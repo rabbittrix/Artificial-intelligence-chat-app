@@ -74,12 +74,12 @@ const SettingsModal: React.FC<SettingsModalProps> = ({
                 text-base 
                 font-semibold 
                 leading-7 
-                text-gray-900
+                text-yellow-900
               "
             >
               Profile
             </h2>
-            <p className="mt-1 text-sm leading-6 text-gray-600">
+            <p className="mt-1 text-sm leading-6 text-yellow-700">
               Edit your public information.
             </p>
 
@@ -100,7 +100,7 @@ const SettingsModal: React.FC<SettingsModalProps> = ({
                     text-sm 
                     font-medium 
                     leading-6 
-                    text-gray-900
+                    text-yellow-900
                   "
                 >
                   Photo
@@ -116,7 +116,7 @@ const SettingsModal: React.FC<SettingsModalProps> = ({
                   <CldUploadButton 
                     options={{ maxFiles: 1 }} 
                     onUpload={handleUpload} 
-                    uploadPreset="pgc9ehd5"
+                    uploadPreset="cfjgx28g"
                   >
                     <Button
                       disabled={isLoading}

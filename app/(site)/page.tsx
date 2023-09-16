@@ -30,7 +30,7 @@ const Auth = () => {
             text-3xl 
             font-bold 
             tracking-tight 
-            text-gray-900
+            text-yellow-900
           "
           >
             Sign in to your account
